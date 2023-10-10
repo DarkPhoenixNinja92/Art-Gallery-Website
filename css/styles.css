@@ -1,0 +1,101 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title,.day,.inspired {
+    font-size: 56px;
+    line-height: 55px;
+    text-transform: uppercase;
+}
+
+.modern {
+    font-size: 36px;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+
+.title-para,.day-para,.inspired-para,.modern-para {
+    color: darkgrey;
+    font-size: 18px;
+    line-height: 26px;
+    width: 80%;
+}
+
+.title,.title-para,.day,.day-para,.inspired,.inspired-para,.modern,.modern-para {
+    position: relative;
+    left: 1em;
+}
+
+.inspired,.modern {
+    left: 0.25em;
+}
+
+.day-img,.inspired-img,.modern-img {
+    position: relative;
+    left: 0.55em;
+}
+
+.modern-img {
+    width: 90vw;
+    left: 1.5em;
+    top: 3em;
+}
+
+.inspired-img {
+    left: 1.5em;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0.85em;
+}
+
+button {
+    background-color: black;
+    color: #fff;
+    padding: 1em;
+    text-transform: uppercase;
+    bottom: solid 5px black;
+}
+
+.btn img {
+    background-color: orange;
+    padding: 0.65em;
+}
+
+button,.btn img {
+    margin-bottom: 1em;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social img {
+    margin-right: 2.5em;
+    position: relative;
+    right: 17vw;
+    margin-top: 2.5vh;
+}
+
+.inspired-section div,.modern-section {
+    background-color: #000;
+    color: #fff;
+    width: 100vw;
+    position: relative;
+    left: 0;
+    padding: 0.65em;
+    margin-top: 4em;
+    margin-bottom: 3em;
+}
+
+.modern,.modern-para {
+    left: 1em;
+}
