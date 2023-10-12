@@ -5,6 +5,10 @@
     justify-content: center;
 }
 
+.title-img-tablet,.day-img-tablet,.inspired-img-tablet,.modern-img-tablet,.title-img-desktop,.day-img-desktop,.inspired-img-desktop,.modern-img-desktop,.color-left {
+    display: none;
+}
+
 .title,.day,.inspired {
     font-size: 56px;
     line-height: 55px;
@@ -98,4 +102,213 @@ button,.btn img {
 
 .modern,.modern-para {
     left: 1em;
+}
+
+@media (min-width: 768px) {
+    .title-img,.day-img,.inspired-img,.modern-img {
+        display: none;
+    }
+
+    .title-img-tablet,.day-img-tablet,.inspired-img-tablet,.modern-img-tablet {
+        display: initial;
+    }
+
+    .title-img-tablet {
+        position: relative;
+        bottom: 0.5em;
+        right: 0.5em;
+    }
+
+    .title {
+        width: 65%;
+        font-size: 50px;
+        line-height: 65px;
+        position: relative;
+        bottom: 52vh;
+        left: 46vw;
+    }
+
+    .title-para {
+        width: 45%;
+        position: relative;
+        bottom: 51vh;
+        left: 46vw;
+    }
+
+    .btn {
+        position: relative;
+        bottom: 49vh;
+        left: 12vw;
+    }
+
+    .day {
+        font-size: 50px;
+        line-height: 45px;
+        width: 40%;
+    }
+
+    .day-para {
+        width: 35%;
+    }
+
+    .day,.day-para {
+        position: relative;
+        bottom: 65vh;
+    }
+
+    .day {
+        position: relative;
+        left: 5px;
+    }
+
+    .day-img-tablet {
+        position: relative;
+        bottom: 30vh;
+        left: 41vw;
+    }
+
+    .inspired-img-tablet {
+        position: relative;
+        bottom: 57vh;
+        left: -3vw;
+    }
+
+    .modern-img-tablet {
+        position: relative;
+        bottom: 90.3vh;
+    }
+
+    .inspired {
+        font-size: 40px;
+        width: 45%;
+        position: relative;
+        left: -45px;
+    }
+
+    .inspired-para {
+        width: 70%;
+        position: relative;
+        left: -15px;
+        bottom: 40px;
+    }
+
+    .inspired-section div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 39%;
+        position: relative;
+        bottom: 95vh;
+        left: 52vw;
+    }
+
+    .modern-section {
+        position: relative;
+        bottom: 95vh;
+        width: 96.8vw;
+    }
+}
+
+@media (min-width: 1440px) {
+    .title-img-tablet,.day-img-tablet,.inspired-img-tablet,.modern-img-tablet {
+        display: none;
+    }
+
+    .title-img-desktop {
+        display: initial;
+        position: relative;
+        bottom: 15px;
+    }
+
+    .title {
+        position: relative;
+        left: -3em;
+        width: 34%;
+        color: #fff;
+    }
+
+    .title span {
+        color: #000;
+    }
+
+    .title-para {
+        position: relative;
+        left: 33vw;
+        bottom: 68vh;
+        width: 25%;
+    }
+
+    .btn {
+        position: relative;
+        bottom: 65vh;
+        left: 4vw;
+    }
+
+    .color-left {
+        background-color: #000;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 14.5%;
+        padding-bottom: 63.5vh;
+    }
+
+    .day-img-desktop,.inspired-img-desktop,.modern-img-desktop,.color-left {
+        display: initial;
+    }
+
+    .day-img-desktop {
+        position: relative;
+        left: 33vw;
+        bottom: 30vh;
+    }
+
+    .inspired-img-desktop,.modern-img-desktop {
+        position: relative;
+        bottom: 57vh;
+        left: 7vw;
+    }
+
+    .modern-img-desktop {
+        bottom: 90.4vh;
+        left: 8vw;
+    }
+
+    .inspired {
+        width: 90%;
+        left: 1em;
+    }
+
+    .inspired-section div {
+        left: 52.5vw;
+        top: -89vh;
+    }
+
+    .modern {
+        width: 20%;
+        position: relative;
+        top: 5vh;
+    }
+
+    .modern-para {
+        position: relative;
+        left: 30vw;
+        bottom: 4vh;
+        width: 30%;
+    }
+
+    .social {
+        position: relative;
+        left: 60vw;
+        bottom: 12vh;
+    }
+
+    .modern-section {
+        position: absolute;
+        left: 0;
+        bottom: -115vh;
+        width: 99vw;
+        overflow: hidden;
+    }
 }
