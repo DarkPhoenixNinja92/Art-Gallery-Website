@@ -176,22 +176,21 @@ button {
 
     .top-img-desktop {
         display: initial;
-        width: 73.9vw;
         position: absolute;
-        height: 58.3vh;
+        height: 71.3vh;
+        width: 100vw;
         top: 0;
         left: 0;
     }
     .location {
-        top: 58.3vh;
+        top: 71.3vh;
         left: 0;
-        width: 73.9vw;
+        width: 100vw;
     }
 
     .footer {
-        top: 95vh;
-        right: 26.2vw;
-        width: 73.9vw;
+        top: 102vh;
+        width: 100vw;
     }
 
     .footer-txt {
