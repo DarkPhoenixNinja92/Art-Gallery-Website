@@ -64,7 +64,6 @@ button {
     color: #fff;
     padding: 1em;
     text-transform: uppercase;
-    bottom: solid 5px black;
 }
 
 .btn img {
@@ -307,7 +306,7 @@ button,.btn img {
     .modern-section {
         position: absolute;
         left: 0;
-        bottom: -115vh;
+        bottom: -165vh;
         width: 99vw;
         overflow: hidden;
     }

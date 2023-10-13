@@ -1,0 +1,205 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-bottom: -500px;
+}
+
+.top-img-tablet,.top-img-desktop {
+    display: none;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0.85em;
+}
+
+button {
+    background-color: black;
+    color: #fff;
+    padding: 1em;
+    text-transform: uppercase;
+}
+
+.btn img {
+    background-color: orange;
+    padding: 0.65em;
+}
+
+.top-img-mobile,.btn {
+    position: absolute;
+    top: 0;
+}
+
+.btn {
+    left: 0;
+}
+
+.location {
+    background-color: #000;
+    color: #fff;
+    position: absolute;
+    top: 45vh;
+}
+
+.location p {
+    font-size: 18px;
+    line-height: 28px;
+    margin-left: 0.6em;
+}
+
+.title,.street-title,.footer-title {
+    text-transform: uppercase;
+    margin-left: 0.6em;
+}
+
+.title {
+    font-size: 36px;
+    line-height: 45px;
+}
+
+.street-title {
+    color: #D5966C;
+    font-size: 32px;
+    line-height: 32px;
+}
+
+.txt {
+    width: 85%;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social img {
+    margin-right: 2.5em;
+    position: relative;
+    right: 17vw;
+    margin-top: 2.5vh;
+}
+
+.footer-title {
+    font-size: 23px;
+    line-height: 30px;
+    width: 65%;
+}
+
+.footer-txt {
+    font-size: 16px;
+    line-height: 26px;
+    width: 65%;
+    margin-left: 0.6em;
+}
+
+.footer {
+    background-color: #D5966C;
+    color: #000;
+    position: absolute;
+    top: 82.5vh;
+    padding-bottom: 2.1em;
+}
+
+@media (min-width: 768px) {
+    .top-img-mobile {
+        display: none;
+    }
+
+    .top-img-tablet {
+        display: initial;
+        position: absolute;
+        top: 0;
+        height: 130%;
+    }
+
+    .btn {
+        left: 2vw;
+    }
+
+    .title {
+        position: relative;
+        width: 25%;
+        top: 1em;
+    }
+
+    .location {
+        top: 130vh;
+    }
+
+    .street-title,.city,.state,.country,.txt {
+        position: relative;
+        left: 40vw;
+        bottom: 6vh;
+    }
+
+    .txt {
+        width: 45%;
+        position: relative;
+    }
+
+    .footer {
+        top: 169vh;
+    }
+
+    .footer-txt {
+        width: 33.33%;
+        position: relative;
+        left: 15em;
+    }
+
+    .footer-title {
+        width: 25%;
+    }
+
+    .footer {
+        overflow-x: hidden;
+    }
+
+    .social {
+        position: relative;
+        left: 55vw;
+        bottom: 12vh;
+    }
+}
+
+@media (min-width: 1440px) {
+
+    .top-img-tablet {
+        display: none;
+    }
+
+    .top-img-desktop {
+        display: initial;
+        width: 73.9vw;
+        position: absolute;
+        height: 58.3vh;
+        top: 0;
+        left: 0;
+    }
+    .location {
+        top: 58.3vh;
+        left: 0;
+        width: 73.9vw;
+    }
+
+    .footer {
+        top: 95vh;
+        right: 26.2vw;
+        width: 73.9vw;
+    }
+
+    .footer-txt {
+        left: 21vw;
+    }
+
+    .social {
+        left: 42vw;
+        bottom: 9vh;
+    }
+}
