@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub Repository](https://github.com/DarkPhoenixNinja92/art-gallery-website)
-- Live Site URL: [GitHub Pages Site](https://darkphoenixninja92.github.io/art-gallery-website/)
+- Solution URL: [GitHub Repository](https://github.com/shaunpour/art-gallery-website)
+- Live Site URL: [GitHub Pages Site](https://shaunpour.github.io/art-gallery-website/)
 
 ### Built with
 
